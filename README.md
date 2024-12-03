@@ -44,8 +44,17 @@ First setup your machine or your teammate's machine to be the self hosted runner
 Answer the following questions:
 
 1. What does the __runs-on__ string  
+The runs-on string in a GitHub Actions workflow specifies the type of environment or runner on which the job will execute. For example:
+    - `runs-on: ubuntu-latest` specifies a GitHub-hosted runner using the latest version of Ubuntu.
+    - `runs-on: self-hosted` specifies a self-hosted runner, meaning the job will run on a machine you have configured as a runner.
+
 2. In `main.yml`, on which branch do the jest tests run when a push to main branch is made?
+
+    The Jest tests run on the main branch whenever a push is made to the main branch.
+
 3. In `main.yml`, on which branch do the jest tests run when a pull request is submitted to the deploy branch?
+  
+    The Jest tests run on the deploy branch whenever a pull request is submitted to the deploy branch.
 
 Next, create a new workflow yml file that captures the following continuous integration requirement:
 

@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "Dhananjais-MacBook-Air",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus3.actions.githubusercontent.com/lD87OYFzy9znJGmgnKzk3hpCbCd6WeG5KWCz7iPPwhs689NApQ/",
+  "gitHubUrl": "https://github.com/Djai284/learn-continuous-integration",
+  "workFolder": "_work"
+}
